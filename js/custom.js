@@ -538,7 +538,7 @@ let questions = [
   },
   //Bootstrap Questions
   {
-    question: "Who is the invetor of Bootstrap?", 
+    question: "Who is the inventor of Bootstrap?", 
     choice1: "James Gosling",
     choice2: "Mark Jukervich",
     choice3: "Mark Otto and Jacob Thornton",
@@ -730,7 +730,7 @@ let questions = [
     answer: 3
   },
   {
-    question: "Which of the following class defines a text color?Which of the following class defines a text color?", 
+    question: "Which of the following class defines a text color?", 
     choice1: ".blue-text",
     choice2: ".blue",
     choice3: ".text-blue",
