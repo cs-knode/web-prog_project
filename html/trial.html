@@ -54,8 +54,8 @@
  </div>
 
 <!--everything starts here-->
-<div class="container">
-	<div class="card card-block game">
+<div class="container-fluid">
+	<div class="card card-block game w-25">
 		<div class="progress m-3">
             <div class="progress-bar bg-dark" id="p-num"></div>
         </div>
@@ -97,6 +97,10 @@
 	/* tooltip */
 	$(function() {
 	  $('[data-toggle="tooltip"]').tooltip()
+	});
+	/* modal */
+	$('#myModal').on('shown.bs.modal', function () {
+	  $('#myInput').trigger('focus')
 	});
 </script>
 
