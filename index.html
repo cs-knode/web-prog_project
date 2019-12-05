@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<!--quiz website using user codes and bootstrap-->
+<html>
+<head>
+
+	<!--title-->
+	<title>Test Your Knowledge</title>
+	<!--metadata-->
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device=width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<!--icon-->
+	<link rel="icon" href="img/icon.png" type="image/png">
+	<!--external css-->
+	<link rel="stylesheet" type="text/css" href="css/custom.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<!--internal css-->
+	<style language="css">
+	body{
+		color: white;
+		background-image: url('img/neutral.jpg');
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
+	</style>
+
+</head>
+<body>
+
+<!--preloader-->
+ <div class="preloader_bg">
+ 	<div class="preloader">
+ 	</div>
+ </div>
+
+<!--everything starts here-->
+<div class="container">
+	<div class="start">
+		<h1 class="title">TEST YOUR KNOWLEDGE</h1>
+		<p class="subtitle">The ultimate Front End Web Development Quiz to test your skills. Let's start?</p>
+		<a class="btn btn-outline-secondary btn-lg btn-block begin" href="html/trial.html">Begin</a>
+	</div>
+</div>
+<!--everything ends here-->
+
+<!--external js-->
+<script type="text/javascript" src="js/jquery.min.js" charset="utf-8" async defer></script>
+<script type="text/javascript" src="js/tether.min.js" charset="utf-8" async defer></script>
+<script type="text/javascript" src="js/popper.min.js" charset="utf-8" async defer></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/custom.js"></script>
+<!--internal js-->
+<script language="javascript">
+	/* preloader */
+	setTimeout(function(){
+		$('.preloader_bg').fadeToggle('slow');
+	}, 1500);
+</script>
+
+</body>
+</html>
